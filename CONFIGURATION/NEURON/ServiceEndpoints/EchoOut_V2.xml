@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<ESBService xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>38f7d7aa-c579-465c-bd69-576af85b8008</Id>
+  <Version>eeb6de65-50a9-440f-a425-8bf2267dd391</Version>
+  <Name>EchoOut_V2</Name>
+  <Description />
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <Bindings />
+  <Topic />
+  <Pattern>1</Pattern>
+  <Properties />
+  <MessagingPattern>Request-Reply</MessagingPattern>
+  <ProxySettings>
+    <HostConfigType>Default</HostConfigType>
+    <CredentialConfigType>NotSpecified</CredentialConfigType>
+    <Credential>&lt;Default&gt;</Credential>
+    <Host />
+    <Port>0</Port>
+    <BypassLocalAddress>false</BypassLocalAddress>
+  </ProxySettings>
+  <FarmSingleInstance>false</FarmSingleInstance>
+  <ClientConnectorId>9d371bda-2b66-4c5b-8f55-105703adfbe8</ClientConnectorId>
+  <Enabled>true</Enabled>
+  <NegotiateServiceCredential>true</NegotiateServiceCredential>
+  <EstablishSecurityContext>true</EstablishSecurityContext>
+  <TransactionType>None</TransactionType>
+  <Zone>Enterprise</Zone>
+  <ServiceName>EchoOut_V2</ServiceName>
+  <ServiceGroup>General</ServiceGroup>
+  <Contract />
+  <Security>None</Security>
+  <MaxMessageSize>1000000</MaxMessageSize>
+  <AccessUrl>http://localhost/Echo/EchoService_V2.svc</AccessUrl>
+  <ClientUrl />
+  <RouteClientTraffic>false</RouteClientTraffic>
+  <ClientTopic />
+  <UpdateMetadata>true</UpdateMetadata>
+  <UseHttps>false</UseHttps>
+  <EnableClientMetadataHttpEndpoint>false</EnableClientMetadataHttpEndpoint>
+  <EnableClientMetadataHttpsEndpoint>false</EnableClientMetadataHttpsEndpoint>
+  <ClientSubscriberId>EchoPublisher</ClientSubscriberId>
+  <RouteServiceTraffic>true</RouteServiceTraffic>
+  <CaptureHeaders>true</CaptureHeaders>
+  <RestoreHeaders>false</RestoreHeaders>
+  <ServiceTopic />
+  <ServiceSubscriberId>EchoSubscriber_V2</ServiceSubscriberId>
+  <HttpConnectionLimit>2</HttpConnectionLimit>
+  <Behavior />
+  <Binding>BasicHttp</Binding>
+  <Impersonation>false</Impersonation>
+  <ReliableMessaging>false</ReliableMessaging>
+  <ReuseServiceConnection>true</ReuseServiceConnection>
+  <ServiceIdentityType>None</ServiceIdentityType>
+  <ServicePrincipal />
+  <ServiceType>Business</ServiceType>
+  <ServiceThrottles>
+    <MaxConcurrentCalls>2147483647</MaxConcurrentCalls>
+    <MaxConcurrentInstances>2147483647</MaxConcurrentInstances>
+    <MaxConcurrentSessions>2147483647</MaxConcurrentSessions>
+  </ServiceThrottles>
+  <ACL />
+  <ConfigFile />
+  <ServicePolicy>Default</ServicePolicy>
+  <FailoverAddresses />
+  <InboundPolling>false</InboundPolling>
+  <OptimizeForLargeMessages>false</OptimizeForLargeMessages>
+  <RawBody>false</RawBody>
+  <CertificateValidationMode>None</CertificateValidationMode>
+  <CertificateRevocationMode>NoCheck</CertificateRevocationMode>
+</ESBService>

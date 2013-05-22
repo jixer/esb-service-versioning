@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ESBDatabase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>f627fab6-7fbf-4999-8bb1-ef9c90bc90f1</Id>
+  <Version>07329e51-9327-46d6-aff1-1a6990ae3142</Version>
+  <Name>WIN-CVPAIUS0Q0A.Neuron</Name>
+  <Description />
+  <IsSystemObject>false</IsSystemObject>
+  <Bindings />
+  <CatalogName>Neuron</CatalogName>
+  <ConnectionString>Data Source=.;Initial Catalog=Neuron;Integrated Security=True</ConnectionString>
+  <Zone>(All Zones)</Zone>
+  <DatabaseType>SQLServer</DatabaseType>
+</ESBDatabase>
